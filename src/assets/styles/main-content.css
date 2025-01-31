@@ -1,0 +1,176 @@
+/* HEADER */
+
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header_navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background:rgba(139,63,63, 0.7);
+    padding: 12px;
+    border: 5px outset #362B2B;
+}
+
+.header_navigation .navigation{
+    display: flex;
+    justify-content: space-around;/* justifica de forma que tem espaço envolta do item */
+    align-items: center;
+}
+
+.header_navigation .navigation .arrow-left{
+    margin-right: 1.25rem;/* tem contabilizado relativamente dependendo dos outros elementos */
+}
+
+.arrow-left, .arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow:
+    0 0 5px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    0 0 5px rgb(230, 50, 50),
+    0 0 25px rgb(230, 50, 50),
+    0 0 50px rgb(230, 50, 50),
+    inset 0 0 0px 1px #F00200,
+    inset 0 0 10px 2px #E01B1B;
+    border-radius: 500px;
+    border: 1px solid #fff;
+}
+
+.header_login{
+    display: flex;
+    align-items: center;
+}
+
+.header_search{
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background:rgba(139,63,63, 0.7);
+    box-shadow:
+    0 0 5px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    0 0 5px rgb(230, 50, 50),
+    0 0 25px rgb(230, 50, 50),
+    0 0 50px rgb(230, 50, 50),
+    inset 0 0 0px 1px #F00200,
+    inset 0 0 30px 2px #E01B1B;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header_search img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header_search input{
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis; /* quando texto é muito grande ele deixa com ... */
+    overflow: hidden;/* não quebra linha mas mostra ... */
+    white-space: nowrap;/* não quebra a linha */
+    outline: none;/* tira a linha da bordar */
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    font: 12px verdana, arial, sans-serif;
+}
+
+.header_login .subscribe{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+    border-bottom: 3px solid #E01B1B;
+    box-shadow: 0 0 50px 0px #eeaaaa,;
+}
+
+.header_login .login{
+    width: 100px;
+    height: 48px;
+    color: #fff;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+    box-shadow:
+    0 0 0px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    inset 0 0 0px 1px #eeaaaa,
+    inset 0 0 10px 2px #E01B1B;
+    transition: 100ms
+}
+
+.header_login .login:hover{
+    background: rgb(255, 67, 67);
+    box-shadow:
+    0 0 5px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    0 0 5px rgb(230, 50, 50),
+    0 0 25px rgb(230, 50, 50),
+    0 0 50px rgb(230, 50, 50),
+    inset 0 0 0px 1px #F00200,
+    inset 0 0 30px 2px #E01B1B;
+    text-shadow: 0 0 10px #E01B1B;
+    transform: translateY(-5px);
+}
+
+.header_login .login:active {
+    position: relative;
+    top: 8px;
+}
+
+/* PLAYLIST */
+
+.playlist-container{
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background:rgba(139,63,63, 0.9);
+    border: 5px outset #362B2B;
+}
+
+.playlist{
+    margin: 24px;
+}
+
+.playlist #greeting{
+    color:#fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist .greeting-subtitle{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Spotify</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="./src/assets/styles/reset.css">
+    <link rel="stylesheet" href="./src/assets/styles/vars.css">
+    <link rel="stylesheet" href="./src/assets/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/assets/styles/main-content.css">
+
     <!-- Links para trazer os ícones via CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
-
 
 </head>
 <body>
@@ -19,7 +20,7 @@
             <div>
                 <div class="logo">
                     <a href="">
-                        <img src="./assets/icons/logo-spotify.png" alt="Logo do Spotify">
+                        <img src="./src/assets/icons/logo-spotify.png" alt="Logo do Spotify">
                     </a>
                 </div>
                     <ul>
@@ -66,17 +67,57 @@
             </div>
         </div>
     </div>
+
+    <main><!-- serve para conteudo principal, e acessibilidade reconhecer onde fica o conteudo -->
+        <div class="main-container"> 
+            <nav class=" header_navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <span class="fa fa-arrow-left"></span>
+                    </button>
+                    <button class="arrow-right">
+                        <span class="fa fa-arrow-right"></span>
+                    </button>
+                </div>
+                    <div class="header_search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" 
+                        maxlength="800" placeholder="O que você quer ouvir?"/>
+                    </div>
+                    <div class="header_login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>        
+                    </div>
+            </nav>
+
+        <!-- Playlist -->
+        <div class="playlist-container">
+            <div id="result-playlists">
+                <div class="playlist">
+                    <h1 id="greeting">Boas Vindas</h1>
+                    <h2 class="greeting-subtitle">Navegar por todas as seções</h2>
+                </div>
+                <!-- LISTA DE CARDS -->
+                
+            </div>
+        </div>
+        </div>
+    </main>
+
+
+
+
+    <footer class="disclaimer-premium">
+        <div class="text">
+            <p class="disclaimer-premium_title">Testar o Premium de graça</p>
+            <p class="disclaimer-premium_subtitle">
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                anúncios. Não precisa de cartão de crédito.
+            </p>
+        </div>
+        <div class="button">
+            <button type="button">Inscreva-se grátis</button>
+        </div>
+    </footer>
 </body>
-<footer class="disclaimer-premium">
-    <div class="text">
-        <p class="disclaimer-premium_title">Testar o Premium de graça</p>
-        <p class="disclaimer-premium_subtitle">
-            Inscreva-se para curtir música ilimitada e podcasts só com alguns
-            anúncios. Não precisa de cartão de crédito.
-        </p>
-    </div>
-    <div class="button">
-        <button type="button">Inscreva-se grátis</button>
-    </div>
-</footer>
 </html>

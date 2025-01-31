@@ -1,0 +1,8 @@
+:root{/* cria variavies para facilitar a manutenção onde troca tudo de uma vez */
+    /* Fontes */
+    --font-dm-sans:"DM Sans", sans-serif;/* uma variavel para mudar a fonte de uma vez  */
+
+    /* COLORS */
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0, 0, 0, 0.7)
+} 
