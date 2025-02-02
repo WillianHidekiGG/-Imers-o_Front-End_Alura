@@ -1,0 +1,5 @@
+@media screen and (max-width: 1015px) {/* trabalha com o tamanho da tela definido */
+    off_list-iten{/* carrega o display grid para mostrar quantas colunas na tela */
+        grid-template-columns: 1fr 1fr; /* define quantas colunas trabalha */
+    }
+}

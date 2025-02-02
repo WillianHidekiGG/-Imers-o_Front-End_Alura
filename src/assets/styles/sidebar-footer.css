@@ -1,9 +1,10 @@
 body{
     width:100vw;
     height: 100vh;
-/*     background: #000 url(../backgrond/fundo.jpg); */
+    background: url(../backgrond/fundo.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center; /* Centraliza a imagem */
     font-family: var(--font-dm-sans);
 }
 
