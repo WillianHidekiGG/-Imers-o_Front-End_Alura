@@ -13,6 +13,9 @@ Durante a Imersão Front-end da Alura, o projeto tem como base em HTML e CSS e u
 Fizalização da aula 1:
 <img src="./imagens/aula1base.png" alt="Imagem da Aula 1">
 
+Finalização do desafio da aula 1:
+<img src="./imagens/aula1.png" alt="Imagem da Aula 1">
+
 ## AULA 2
 📖Conteúdo:
 - Criar todo menu lateral da página;
@@ -74,7 +77,7 @@ Finalização da aula 5:
 <img src="./imagens/aula5base.png" alt="Imagem da Aula 5">
 
 Gif mostrando as funcionalidades da tela:
-<img src="./imagens/aulaDesafio5.gif" alt="Gif de tela da Aula 5>
+![me](imagens/aulaDesafio5.gif) 
 
 
 
